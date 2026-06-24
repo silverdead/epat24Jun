@@ -8,7 +8,7 @@ on:
     branches: [main]
 
 jobs:
-  build-with-jdk-17:
+  build-with-jdk-22:
 
     runs-on: ubuntu-latest
 
