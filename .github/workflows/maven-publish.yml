@@ -11,9 +11,7 @@ jobs:
   build-with-jdk-22:
 
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+
 
     steps:
     - uses: actions/checkout@v4
