@@ -5,10 +5,10 @@ name: Maven Package
 
 on:
   push:
-    types: [created]
+    types: [main]
 
 jobs:
-  build:
+  build-with-jdk-22:
 
     runs-on: ubuntu-latest
     permissions:
